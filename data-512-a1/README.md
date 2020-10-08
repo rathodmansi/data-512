@@ -4,7 +4,7 @@
 The goal of this assignment is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through August 30 2020. 
 
 ## License & Source Data
-- This repository is under the MIT License
+- This repository is under the MIT License [https://github.com/rathodmansi/data-512/blob/main/data-512-a1/LICENSE]
 - Link to Wikimedia Foundation REST API terms of use : https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions
 
 Following are the 2 APIs used for fetching english Wikipedia data:
@@ -18,7 +18,7 @@ We have fetched 5 JSON files from the above two APIs (PageView & PageCount).File
 
 #### Descriptions
 <ul>
-  <li><b>Month</b> : <i> Month for which data is provided</li>
+  <li><b>Year</b> : <i> Year for which data is provided</li>
   <li><b>Month</b> : <i> Month for which data is provided</li>
   <li><b>pagecount_desktop_views</b> : <i> No of views through Desktop by Pagecount API </i></li>
   <li><b>pagecount_mobile_views</b> : <i> No of views through Mobile by Pagecount API</i></li>
