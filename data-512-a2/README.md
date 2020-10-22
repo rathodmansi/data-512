@@ -18,20 +18,21 @@ In order to determine whether the Wikipedia Talk corpus contains bias, the chara
 3. Overview of Google’s Conversation AI project: https://conversationai.github.io/ (Links to an external site.) 
 
 
-  #### Research Question Explored:
+## Research Question Explored:
 
-    <b>Analysis 1</b>:
-    Research Question:<br>
-    Does the Crowdflower worker's populations a balanced representation of gender, age-groups and education.Since the above datasets is from English Wikipedia,    therefore it will be interesting to see what is the distribution of workers amongst their first language spoken
+#### <b>Analysis 1</b>: Research Question:<br>
+<b>Does the Crowdflower worker's populations a balanced representation of gender, age-groups and education.Since the above datasets is from English Wikipedia,    therefore it will be interesting to see what is the distribution of workers amongst their first language spoken. </b>
 
-    We will be analyzing the above trend for both our attack dataset and toxicity dataset. My motivation to include both the dataset in analysis is to have a complete picture of bias occuring or not occuring in both of these datasets.
+We will be analyzing the above trend for both our attack dataset and toxicity dataset. My motivation to include both the dataset in analysis is to have a complete picture of bias occuring or not occuring in both of these datasets.
 
-    <b>Analysis Questions</b>
-    Workers distribution across the following demographics:
-    - gender,
-    - age-group,
-    - education and
-    - first language spoken
+#### <b>Analysis Question</b> Workers distribution across the following demographics:gender,age-group, education and first language spoken
+
+#### <b>Analysis 2</b>: Research Question:<br>
+<b>Are there any patterns or inherent differences in how the crowdflower worker's percieve a comment as toxic or attacking based on their gender, education or age-group?</b>
+
+We will be analyzing the above trend for toxicity dataset. My motivation to include just the toxicity dataset in analysis is two folds. Firstly, the attack dataset has around 50% demographic details missing for its worker whereas for toxicity dataset this values is below20%. Secondly, I wanted to have a deeper analysis on this one dataset and see if I can identify any underlying bias.
+
+#### <b>Analysis Question</b> Workers Annotation distribution across the following demographics: gender,age-group, education and first language spoken
 
 ## Directory Layout
 
